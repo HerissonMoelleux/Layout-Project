@@ -1,26 +1,39 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: 'Cardo', sans-serif;
 }
 
-html {
-    margin: 0;
-}
-
-.header__logo{
+/*Header*/
+.header__container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    padding-top: 16px;
+    padding-bottom: 47px;
+    position: relative;
 }
 
+.header__text{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+}
 
+.header__text-item{
+    margin-left: 30px;
+}
 
-
-
-
-
-
-
-
-
+.header__logo-image{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Footer */
 
