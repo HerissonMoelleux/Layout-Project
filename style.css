@@ -24,9 +24,9 @@ html {
 
 /* Footer */
 
-.container__header {
+.container__footer {
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     height: 3rem;
     width: 4rem;
     display: flex;
@@ -43,8 +43,17 @@ html {
     /* background-color: #141414; */
     padding: 5rem 0;
     height: 320px;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.footer__content {
+    margin-left: 5rem;
+    margin-top: -80px;
     display: flex;
-    flex-direction: column;
+    width: 750px;
+    justify-content: space-between;
 }
 
 .content {
@@ -71,24 +80,16 @@ html {
     gap: 0.3rem;
 }
 
-.footer__content {
-    margin-left: 5rem;
-    margin-top: -40px;
-    display: flex;
-    width: 750px;
-    justify-content: space-between;
-}
-
 .news__container {
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 280px;
-    margin-top: -265px;
+    margin-top: -236px;
     margin-left: 951px;
 }
 
-.slogan__container {
+.motto__container {
     margin: 0;
     margin-bottom: 2rem;
     height: 2rem;
@@ -103,11 +104,9 @@ html {
 
 .subs__container {
     background-color: #fff;
-    border-color: #141414;
-    border-width: 2px;
-    border-style: solid;
+    border: #141414 2px solid;
     margin-left: 4rem;
-    margin-top: -1.5rem;
+    margin-top: -0.9rem;
     height: 1.5rem;
     width: 220px;
     display: flex;
@@ -120,6 +119,8 @@ html {
 
 .images__container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-left: 4rem;
     margin-top: 2rem;
     height: 8rem;
@@ -129,13 +130,11 @@ html {
 .tree__container {
     width: 66px;
     height: 66px;
-    margin-left: 30px;
 }
 
 .trustpilot__container {
     width: 66px;
     height: 66px; 
-    margin-left: 28px;   
 }
 
 .fsc__container {
