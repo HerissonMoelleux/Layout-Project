@@ -3,10 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Cardo', sans-serif;
-}
-
-bode {
-    background-color: #f2f3f5;
+    /*background-color: #f2f3f5;*/
 }
 
 /*Header*/
@@ -39,8 +36,99 @@ bode {
     margin-right: auto;
 }
 
-/* Partners Section */
+/*Discover Section*/
+.discover__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background: url('images/discover.png') no-repeat center center / cover;
+    position: relative;
+}
 
+.discover-title{
+    text-align: center;
+    color: white;
+}
+
+.discover-button {
+    margin-top: 30px;
+    width: 205px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+
+.discover-button:hover{
+    background-color: rgba(0,0,0,1);
+    border-color: black;
+    transition: 0.6s;
+}
+
+.discover__decor{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 324px;
+    height: 50px;
+    text-align: center;
+}
+
+/*About Section*/
+.about__container{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about__content-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.about__text{
+    margin-left: 15px;
+}
+.about__rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about__text-rating:hover{
+    color: indianred;
+    transition: 0.6s;
+}
+
+/*Collage Section*/
+.collage__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.collage-img{
+    width: 100%;
+}
+
+/* Partners Section */
 .partners {
     margin-bottom: 2rem;
     justify-content: center;
@@ -48,7 +136,7 @@ bode {
 }
 
 .partners__text {
-    height: 22;
+    height: 22px;
     width: 230px;
     margin: 0 0 2rem 40rem;
     
@@ -63,7 +151,7 @@ bode {
 /* Footer */
 
 #footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
