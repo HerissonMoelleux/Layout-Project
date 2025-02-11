@@ -5,6 +5,10 @@
     font-family: 'Cardo', sans-serif;
 }
 
+bode {
+    background-color: #f2f3f5;
+}
+
 /*Header*/
 .header__container{
     display: flex;
@@ -35,7 +39,34 @@
     margin-right: auto;
 }
 
+/* Partners Section */
+
+.partners {
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__text {
+    height: 22;
+    width: 230px;
+    margin: 0 0 2rem 40rem;
+    
+}
+
+.partners__image {
+    width: 1420px;
+    height: 105px;
+}
+
+
 /* Footer */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 .container__footer {
     margin: 0;
@@ -53,12 +84,8 @@
 
 .footer__container {
     background-color: #e9e9e9;
-    /* background-color: #141414; */
     padding: 5rem 0;
     height: 400px;
-    
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .footer__content {
