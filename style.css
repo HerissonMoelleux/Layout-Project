@@ -55,7 +55,7 @@
     background-color: #e9e9e9;
     /* background-color: #141414; */
     padding: 5rem 0;
-    height: 320px;
+    height: 400px;
     
     /* display: flex; */
     /* flex-direction: column; */
@@ -99,7 +99,7 @@
     width: 350px;
     height: 280px;
     margin-top: -236px;
-    margin-left: 951px;
+    margin-left: 1050px;
 }
 
 .motto__container {
@@ -155,4 +155,35 @@
     height: 45px;
     margin-bottom: 70px;
     margin-left: 52px;
+}
+
+.sponsors__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay {
+    height: 28px;
+    width: 66px;
+}
+
+.pay__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.privacy__container {
+    margin-right: 9rem;
+    font-size: small;
+    height: 1.5rem;
+    width: 18rem;
+}
+
+.copyright {
+    margin-left: 9rem;
+    height: 1.5rem;
+    width: 14rem;
+    font-size: small;
 }
