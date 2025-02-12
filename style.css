@@ -421,15 +421,15 @@
 }
 
 .trustpilot__container {
-    width: 66px;
-    height: 66px; 
-}
-
-.fsc__container {
     width: 240px;
     height: 45px;
     margin-bottom: 70px;
     margin-left: 52px;
+}
+
+.fsc__container {
+    width: 66px;
+    height: 66px;
 }
 
 .sponsors__container {
