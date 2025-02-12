@@ -4,9 +4,11 @@
     padding: 0;
     font-family: 'Cardo', sans-serif;
 }
-
+.empty {
+    height: 110px;
+}
 /*Header*/
-.header__container{
+.header__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,18 +20,18 @@
     position: relative;
 }
 
-.header__text{
+.header__text {
     display: flex;
     justify-content: space-around;
     position: absolute;
     left: 0;
 }
 
-.header__text-item{
+.header__text-item {
     margin-left: 30px;
 }
 
-.header__logo-image{
+.header__logo-image {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +49,7 @@
     position: relative;
 }
 
-.discover-title{
+.discover-title {
     text-align: center;
     color: white;
 }
@@ -62,13 +64,13 @@
     color: white;
 }
 
-.discover-button:hover{
+.discover-button:hover {
     background-color: rgba(0,0,0,1);
     border-color: black;
     transition: 0.6s;
 }
 
-.discover__decor{
+.discover__decor {
     display: flex;
     position: absolute;
     left: 20px;
@@ -83,39 +85,39 @@
 }
 
 /*About Section*/
-.about__container{
+.about__container {
     width: 100%;
     height: 155px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.about__content{
+.about__content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.about__content-item{
+.about__content-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 60px;
 }
-.about__text{
+.about__text {
     margin-left: 15px;
 }
-.about__rating{
+.about__rating {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#about__text-rating:hover{
+#about__text-rating:hover {
     color: indianred;
     transition: 0.6s;
 }
 
 /*Collage Section*/
-.collage__container{
+.collage__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,8 +129,66 @@
     width: 100%;
 }
 
+/*Cloe Section*/
+.cloe__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cloe__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: 0;
+}
+
+.cloe-title {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.cloe-subtitle {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.cloe-price {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.cloe-text {
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.market-btn {
+    margin-right: 50px;
+    background: none;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.market-btn::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(5px);
+}
+
+
+
 /* Partners Section */
-.partners {
+.partners__container {
     margin-bottom: 2rem;
     justify-content: center;
     align-items: center;
@@ -136,9 +196,8 @@
 
 .partners__text {
     height: 22px;
-    width: 230px;
-    margin: 0 0 2rem 40rem;
-
+    width: 250px;
+    margin: 2rem 0 2rem 40rem;
 }
 
 .partners__image {
@@ -155,8 +214,14 @@
     width: 100%;
 }
 
+.footer__container {
+    background-color: #e9e9e9;
+    padding: 5rem 0;
+    height: 400px;
+    width: 100%;
+}
+
 .container__footer {
-    margin: 0;
     margin-bottom: 1rem;
     height: 3rem;
     width: 4rem;
@@ -166,12 +231,6 @@
     justify-content: center;
     font-weight: 400;
     font-size: 20px;
-}
-
-.footer__container {
-    background-color: #e9e9e9;
-    padding: 5rem 0;
-    height: 400px;
 }
 
 .footer__content {
@@ -236,7 +295,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-weight: 200;
     font-size: 15px;
 }
@@ -257,20 +315,20 @@
 }
 
 .trustpilot__container {
-    width: 66px;
-    height: 66px; 
-}
-
-.fsc__container {
     width: 240px;
     height: 45px;
     margin-bottom: 70px;
     margin-left: 52px;
 }
 
+.fsc__container {
+    width: 66px;
+    height: 66px; 
+}
+
 .sponsors__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pay {
@@ -286,14 +344,12 @@
 }
 
 .privacy__container {
-    margin-right: 9rem;
     font-size: small;
     height: 1.5rem;
     width: 18rem;
 }
 
 .copyright {
-    margin-left: 9rem;
     height: 1.5rem;
     width: 14rem;
     font-size: small;
