@@ -52,6 +52,7 @@
 }
 .header__text-item {
     margin-left: 30px;
+    cursor: pointer;
 }
 .header__logo-image {
     position: absolute;
@@ -147,6 +148,7 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
 /*Cloe Section*/
 .cloe__container {
     display: flex;
@@ -217,6 +219,79 @@
     margin-bottom: 50px;
 }
 
+=======
+/* Learn More Section */
+
+.learn_more__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    width: 100%;
+}
+
+.learn_more__container img {
+    margin: 1rem;
+}
+
+.learn_more__container h2 {
+    font-weight: 100;
+}
+
+.learn_more__container a {
+    color: #141414;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.learn_more__container a:hover {
+    color: #cd5c5c;
+}
+
+.learn_more-text {
+    margin: 1rem;
+    display: block;
+    text-align: center;    
+    font-size: smaller;
+    width: 290px;
+}
+
+.design__container {
+    height: 340px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footprint__container {
+    height: 340px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.made__container {
+    height: 340px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wood__container {
+    height: 340px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+>>>>>>> learn_more_section
 /* Partners Section */
 .partners__container {
     margin-bottom: 2rem;
@@ -225,9 +300,12 @@
 }
 
 .partners__text {
-    height: 22px;
-    width: 250px;
-    margin: 2rem 0 2rem 40rem;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .partners__image {
@@ -342,15 +420,15 @@
 }
 
 .trustpilot__container {
+    width: 66px;
+    height: 66px; 
+}
+
+.fsc__container {
     width: 240px;
     height: 45px;
     margin-bottom: 70px;
     margin-left: 52px;
-}
-
-.fsc__container {
-    width: 66px;
-    height: 66px; 
 }
 
 .sponsors__container {
