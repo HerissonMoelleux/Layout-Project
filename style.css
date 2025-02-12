@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Cardo', sans-serif;
-}
+  }
 .empty {
     height: 110px;
 }
@@ -236,7 +236,6 @@
 }
 
 /* Footer */
-
 #footer {
     position: relative;
     bottom: 0;
