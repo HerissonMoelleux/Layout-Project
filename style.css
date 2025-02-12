@@ -1,12 +1,39 @@
+/*General*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Cardo', sans-serif;
+  }
+.empty {
+    height: 110px;
+}
+.market-btn {
+    width: 85px;
+    height: 22px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    position: relative;
+}
+.market-btn::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    transform: translateY(8px);
 }
 
 /*Header*/
-.header__container{
+.header__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,19 +44,16 @@
     padding-bottom: 47px;
     position: relative;
 }
-
-.header__text{
+.header__text {
     display: flex;
     justify-content: space-around;
     position: absolute;
     left: 0;
 }
-
-.header__text-item{
+.header__text-item {
     margin-left: 30px;
 }
-
-.header__logo-image{
+.header__logo-image {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -46,29 +70,26 @@
     background: url('images/discover.png') no-repeat center center / cover;
     position: relative;
 }
-
-.discover-title{
+.discover-title {
     text-align: center;
     color: white;
 }
-
 .discover-button {
     margin-top: 30px;
     width: 205px;
     height: 40px;
+    font-weight: 700;
     background-color: rgba(0,0,0,0);
     border-color: white;
     border-style: solid;
     color: white;
 }
-
-.discover-button:hover{
+.discover-button:hover {
     background-color: rgba(0,0,0,1);
     border-color: black;
     transition: 0.6s;
 }
-
-.discover__decor{
+.discover__decor {
     display: flex;
     position: absolute;
     left: 20px;
@@ -83,48 +104,117 @@
 }
 
 /*About Section*/
-.about__container{
+.about__container {
     width: 100%;
     height: 155px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.about__content{
+.about__content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.about__content-item{
+.about__content-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 60px;
 }
-.about__text{
+.about__text {
     margin-left: 15px;
 }
-.about__rating{
+.about__rating {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#about__text-rating:hover{
+#about__text-rating:hover {
     color: indianred;
     transition: 0.6s;
 }
 
 /*Collage Section*/
-.collage__container{
+.collage__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-
 .collage-img{
     width: 100%;
+}
+
+/*Cloe Section*/
+.cloe__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cloe__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: 0;
+}
+.cloe-title {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.cloe-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.cloe-price {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.cloe-text {
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+/*Pelican Section*/
+.pelican__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pelican__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 0;
+}
+.pelican-title {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.pelican-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.pelican-price {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.pelican-text {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.pelican-addition {
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 /* Partners Section */
@@ -141,13 +231,11 @@
 }
 
 .partners__image {
-    width: 1420px;
+    width: 100%;
     height: 105px;
 }
 
-
 /* Footer */
-
 #footer {
     position: relative;
     bottom: 0;
@@ -214,7 +302,6 @@
 }
 
 .motto__container {
-    margin: 0;
     margin-bottom: 2rem;
     height: 2rem;
     width: 350px;

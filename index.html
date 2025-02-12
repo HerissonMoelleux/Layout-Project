@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--Header Section-->
-<header>
-    <div class="header__container">
+<header class="header__container">
         <div class="header__text">
             <p class="header__text-item">Wooden Furniture</p>
             <p class="header__text-item">About</p>
@@ -20,13 +19,12 @@
         <div class="header__logo-image">
             <img src="images/img1.png" alt="logo">
         </div>
-    </div>
 </header>
 <main>
     <!--    Discover Section-->
     <section class="discover__container">
         <h1 class="discover-title">Furniture designed to live harmony, creating distinctive and <br> timeless spaces</h1>
-        <button class="discover-button"><h2>Discover now</h2></button>
+        <button class="discover-button">Discover now</button>
         <div class="discover__decor">
             <p class="discover__decor-text">Do you know what is your decor style?</p>
         </div>
@@ -52,7 +50,7 @@
             </div>
         </div>
         <div class="about__rating">
-            <p class="about__text" id="about__text-rating">4.8 Star Reviews</p>
+            <p class="about__text" id="about__text-rating">4.8 Stars Reviews</p>
         </div>
     </section>
     <!--    Collage Section-->
@@ -62,18 +60,53 @@
         <img src="/images/furniture3.png" alt="furniture-3" class="collage-img">
         <img src="/images/furniture4.png" alt="furniture-4" class="collage-img">
     </section>
+    <div class="empty"></div>
+
+    <!--    Cloe Section-->
+    <section class="cloe__container">
+        <div class="cloe__content">
+            <h2 class="cloe-title">Cloe</h2>
+            <h3 class="cloe-subtitle">Modular Storage System</h3>
+            <p class="cloe-price">From$1.176</p>
+            <p class="cloe-text">
+                An expansive way to furnish your space exactly how you
+               need it and like it. Transform it in exactly what you need
+                like a bookshelf, tv stand or show rack, you pick.
+            </p>
+            <button class="market-btn">Shop now</button>
+        </div>
+        <div class="cloe-img">
+            <img src="/images/cloe.png" alt="cloe-pic">
+        </div>
+    </section>
+    <div class="empty"></div>
+  
+    <!--    Pelican Section-->
+    <section class="pelican__container">
+        <img src="/images/pelican.png" alt="pelican-pic" class="pelican-img">
+        <div class="pelican__content">
+            <h2 class="pelican-title">Pelican</h2>
+            <h3 class="pelican-subtitle">Shelves with hidden hooks</h3>
+            <p class="pelican-price">From $89</p>
+            <p class="pelican-text">
+                Store or exhibit your favorite objects in the
+                entrance hall, modern hallways, living rooms and
+                bedrooms with a decorative and minimalist touch.
+            </p>
+            <p class="pelican-addition">+ 3 sizes, + 5 color finishes</p>
+            <button class="market-btn">Shop now</button>
+        </div>
+    </section>
 
     <!-- Partners Section -->
-
-    <div class="partners__container">
+    <section class="partners__container">
         <div class="partners__text">Those who are talking about us...</div>
-        <div class="partners__image"><img src="images/img10.png" alt="partners"></div>
-    </div>    
+        <div><img src="images/img10.png" alt="partners" class="partners__image"></div>
+    </section>
 </main>
 
 
 <!-- Footer Section -->
-
 <footer id="footer">
     <div class="footer__container">
         <div class="footer__content">
@@ -133,6 +166,7 @@
 
     </div>
 </footer>
+
 <script src="app.js"></script>
 </body>
 </html>
