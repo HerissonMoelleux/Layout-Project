@@ -148,7 +148,6 @@
     width: 100%;
 }
 
-<<<<<<< HEAD
 /*Cloe Section*/
 .cloe__container {
     display: flex;
@@ -219,7 +218,6 @@
     margin-bottom: 50px;
 }
 
-=======
 /* Learn More Section */
 
 .learn_more__container {
@@ -290,8 +288,6 @@
     align-items: center;
 }
 
-
->>>>>>> learn_more_section
 /* Partners Section */
 .partners__container {
     margin-bottom: 2rem;
