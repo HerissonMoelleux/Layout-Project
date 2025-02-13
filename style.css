@@ -31,6 +31,10 @@
     left: 0;
     transform: translateY(8px);
 }
+.market-btn:hover {
+    color: red;
+    transition: 0.8s;
+}
 
 /*Header*/
 .header__container {
@@ -215,6 +219,132 @@
 .pelican-addition {
     margin-left: 50px;
     margin-bottom: 50px;
+    color: grey;
+}
+
+/*Alada Section*/
+.alada__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alada__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: 0;
+}
+.alada-bestseller {
+    margin-right: 50px;
+    margin-bottom: 30px;
+    color: red;
+    font-style: italic;
+}
+.alada-title {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.alada-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.alada-price {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.alada-text {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.alada-addition {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+/*Alba Section*/
+.alba__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alba__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 0;
+}
+.alba-title {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.alba-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.alba-price {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.alba-text {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.alba-addition {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: grey;
+}
+.alba__content-img {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*Batea Section*/
+.batea__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.batea__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: 0;
+}
+.batea-title {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.batea-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.batea-price {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.batea-text {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.batea-addition {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    color: grey;
 }
 
 /* Partners Section */
