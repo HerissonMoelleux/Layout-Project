@@ -352,6 +352,7 @@
 
 .quotes__container {
     width: 100%;
+    overflow: hidden;
     position: relative;
 }
 .carousel__container {
